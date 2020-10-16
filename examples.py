@@ -4,8 +4,14 @@ from telephony import *
 
 with Diagram('Examples', show=False, direction='TB'):
     with Cluster('VoIP'):
+        with Cluster('Media Servers'):
+            kurento = Kurento('Kurento')
+            sems = SEMS('SEMS')
+
         with Cluster('Media Proxies'):
+            rtpproxy = RTPProxy('RTPProxy')
             rtpengine = RTPEngine('RTPEngine')
+            mediaproxy_agp = MediaProxyAGP('MediaProxy\nby AG Projects')
 
         with Cluster('Other'):
             freeradius = FreeRADIUS('FreeRADIUS')
@@ -22,6 +28,8 @@ with Diagram('Examples', show=False, direction='TB'):
             sipxecs >> freeswitch
 
             with Cluster('Unified Communications Server'):
+                sylksuite = SylkSuite('Sylk Suite')
+
                 sipxcom = SipXcom('SipXcom')
 
                 issabel = Issabel('Issabel')
@@ -29,6 +37,11 @@ with Diagram('Examples', show=False, direction='TB'):
 
                 elastix = Elastix('Elastix')
                 elastix >> asterisk
+
+        with Cluster('Control Panels'):
+            opensips_cp = OpenSIPSControlPanel('OpenSIPS\nControl Panel')
+
+            opensips >> opensips_cp
 
         with Cluster('PBX systems'):
             freepbx = FreePBX('FreePBX')

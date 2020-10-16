@@ -42,6 +42,14 @@ class OpenSIPS(_Telephony):
     _icon = 'opensips.png'
 
 
+class OpenSIPSControlPanel(_Telephony):
+    _icon = 'opensips_control_panel.png'
+
+
+class SEMS(_Telephony):
+    _icon = 'sems.jpeg'
+
+
 class Kamailio(_Telephony):
     _icon = 'kamailio.png'
 
@@ -86,6 +94,14 @@ class RTPEngine(_Telephony):
     _icon = 'rtpengine.png'
 
 
+class RTPProxy(_Telephony):
+    _icon = 'rtpproxy.png'
+
+
+class MediaProxyAGP(_Telephony):
+    _icon = 'mediaproxy_ag_projects.png'
+
+
 class CallCenterOperator(_Telephony):
     _icon = 'operator.png'
 
@@ -124,3 +140,11 @@ class VideoTalking(_Telephony):
 
 class CallTalking(_Telephony):
     _icon = 'call_talking.png'
+
+
+class Kurento(_Telephony):
+    _icon = 'kurento.png'
+
+
+class SylkSuite(_Telephony):
+    _icon = 'sylksuite.png'
