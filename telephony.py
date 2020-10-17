@@ -42,6 +42,10 @@ class OpenSIPS(_Telephony):
     _icon = 'opensips.png'
 
 
+class OpenSER(_Telephony):
+    _icon = 'openser.png'
+
+
 class OpenSIPSControlPanel(_Telephony):
     _icon = 'opensips_control_panel.png'
 

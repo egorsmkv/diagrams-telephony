@@ -20,6 +20,7 @@ with Diagram('Examples', show=False, direction='TB'):
         with Cluster('Telephony engines'):
             asterisk = Asterisk('Asterisk')
             opensips = OpenSIPS('OpenSIPS')
+            openser = OpenSER('OpenSER')
             freeswitch = FreeSWITCH('FreeSWITCH')
             kamailio = Kamailio('Kamailio')
             yate = Yate('Yate')
