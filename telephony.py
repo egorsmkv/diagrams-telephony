@@ -74,6 +74,10 @@ class Elastix(_Telephony):
     _icon = 'elastix.png'
 
 
+class VitalPBX(_Telephony):
+    _icon = 'vitalpbx.png'
+
+
 class FreeSWITCH(_Telephony):
     _icon = 'freeswitch.png'
 
@@ -156,3 +160,23 @@ class Kurento(_Telephony):
 
 class SylkSuite(_Telephony):
     _icon = 'sylksuite.png'
+
+
+class YetiSwitch(_Telephony):
+    _icon = 'yeti_switch.png'
+
+
+class Streamco(_Telephony):
+    _icon = 'streamco.png'
+
+
+class SippyB2BUA(_Telephony):
+    _icon = 'sippy_b2bua.png'
+
+
+class SippyGoB2BUA(_Telephony):
+    _icon = 'sippy_go_b2bua.png'
+
+
+class RTPCluster(_Telephony):
+    _icon = 'rtp_cluster.png'

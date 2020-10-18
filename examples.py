@@ -11,6 +11,7 @@ with Diagram('Examples', show=False, direction='TB'):
         with Cluster('Media Proxies'):
             rtpproxy = RTPProxy('RTPProxy')
             rtpengine = RTPEngine('RTPEngine')
+            rtp_cluster = RTPCluster('RTPCluster')
             mediaproxy_agp = MediaProxyAGP('MediaProxy\nby AG Projects')
 
         with Cluster('Other'):
@@ -26,6 +27,8 @@ with Diagram('Examples', show=False, direction='TB'):
             yate = Yate('Yate')
             sipxecs = SipXecs('SipXecs')
             ser = SER('SIP Express Router (SER)')
+            sippy_b2bua = SippyB2BUA('Sippy B2BUA')
+            sippy_go_b2bua = SippyGoB2BUA('Sippy Go B2BUA')
 
             sipxecs >> freeswitch
 
@@ -53,8 +56,20 @@ with Diagram('Examples', show=False, direction='TB'):
             mikopbx = MikoPBX('MikoPBX')
             mikopbx >> asterisk
 
+            vitalpbx = VitalPBX('VitalPBX')
+            vitalpbx >> asterisk
+
             fusionpbx = FusionPBX('FusionPBX')
             fusionpbx >> freeswitch
+
+        with Cluster('SoftSwitches'):
+            yeti_switch = YetiSwitch('Yeti')
+
+            yeti_switch >> sems
+
+            streamco = Streamco('Streamco')
+
+            streamco >> asterisk
 
     with Cluster('Communication devices'):
         soft_phone = SoftPhone('SoftPhone')
