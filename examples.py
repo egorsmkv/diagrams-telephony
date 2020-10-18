@@ -25,6 +25,7 @@ with Diagram('Examples', show=False, direction='TB'):
             kamailio = Kamailio('Kamailio')
             yate = Yate('Yate')
             sipxecs = SipXecs('SipXecs')
+            ser = SER('SIP Express Router (SER)')
 
             sipxecs >> freeswitch
 
