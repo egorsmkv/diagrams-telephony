@@ -14,15 +14,23 @@ with Diagram('Examples', show=False, direction='TB'):
             rtp_cluster = RTPCluster('RTPCluster')
             mediaproxy_agp = MediaProxyAGP('MediaProxy\nby AG Projects')
 
-        with Cluster('Other'):
+        with Cluster('AAA Servers'):
             freeradius = FreeRADIUS('FreeRADIUS')
             freediameter = FreeDiameter('FreeDiameter')
+
+        with Cluster('SoftSwitches'):
+            yeti_switch = YetiSwitch('Yeti')
+
+            yeti_switch >> sems
+
+            streamco = Streamco('Streamco')
+
+            freeswitch = FreeSWITCH('FreeSWITCH')
 
         with Cluster('Telephony engines'):
             asterisk = Asterisk('Asterisk')
             opensips = OpenSIPS('OpenSIPS')
             openser = OpenSER('OpenSER')
-            freeswitch = FreeSWITCH('FreeSWITCH')
             kamailio = Kamailio('Kamailio')
             yate = Yate('Yate')
             sipxecs = SipXecs('SipXecs')
@@ -31,6 +39,7 @@ with Diagram('Examples', show=False, direction='TB'):
             sippy_go_b2bua = SippyGoB2BUA('Sippy Go B2BUA')
 
             sipxecs >> freeswitch
+            streamco >> asterisk
 
             with Cluster('Unified Communications Server'):
                 sylksuite = SylkSuite('Sylk Suite')
@@ -59,17 +68,11 @@ with Diagram('Examples', show=False, direction='TB'):
             vitalpbx = VitalPBX('VitalPBX')
             vitalpbx >> asterisk
 
+            incrediblepbx = IncrediblePBX('IncrediblePBX')
+            incrediblepbx >> asterisk
+
             fusionpbx = FusionPBX('FusionPBX')
             fusionpbx >> freeswitch
-
-        with Cluster('SoftSwitches'):
-            yeti_switch = YetiSwitch('Yeti')
-
-            yeti_switch >> sems
-
-            streamco = Streamco('Streamco')
-
-            streamco >> asterisk
 
     with Cluster('Communication devices'):
         soft_phone = SoftPhone('SoftPhone')

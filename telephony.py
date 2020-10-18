@@ -78,6 +78,10 @@ class VitalPBX(_Telephony):
     _icon = 'vitalpbx.png'
 
 
+class IncrediblePBX(_Telephony):
+    _icon = 'incrediblepbx.png'
+
+
 class FreeSWITCH(_Telephony):
     _icon = 'freeswitch.png'
 
