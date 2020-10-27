@@ -14,3 +14,4 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [MagnusBilling](https://github.com/magnussolution/magnusbilling7)
 - [cgrates](https://github.com/cgrates/cgrates)
 - [ASTPP](https://github.com/iNextrix/ASTPP)
+- [PyFreeBilling](https://github.com/mwolff44/pyfreebilling)
