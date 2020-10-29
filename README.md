@@ -19,3 +19,4 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 ## Other PBX systems
 
 - [MiRTA PBX](http://www.mirtapbx.com)
+- [Thirdlane PBX](https://www.thirdlane.com)
