@@ -18,6 +18,10 @@ with Diagram('Examples', show=False, direction='TB'):
             freeradius = FreeRADIUS('FreeRADIUS')
             freediameter = FreeDiameter('FreeDiameter')
 
+            with Cluster('UI'):
+                daloradius = DaloRADIUS('daloRADIUS')
+                daloradius >> freeradius
+
         with Cluster('SoftSwitches'):
             yeti_switch = YetiSwitch('Yeti')
 
@@ -26,6 +30,10 @@ with Diagram('Examples', show=False, direction='TB'):
             streamco = Streamco('Streamco')
 
             freeswitch = FreeSWITCH('FreeSWITCH')
+
+        with Cluster('Telephony platform'):
+            wazo = WazoPlatform('Wazo')
+            kazoo = Kazoo('Kazoo')
 
         with Cluster('Telephony engines'):
             asterisk = Asterisk('Asterisk')
@@ -37,6 +45,7 @@ with Diagram('Examples', show=False, direction='TB'):
             ser = SER('SIP Express Router (SER)')
             sippy_b2bua = SippyB2BUA('Sippy B2BUA')
             sippy_go_b2bua = SippyGoB2BUA('Sippy Go B2BUA')
+            gnu_bayonne = GnuBayonne('GNU Bayonne')
 
             sipxecs >> freeswitch
             streamco >> asterisk
@@ -51,6 +60,10 @@ with Diagram('Examples', show=False, direction='TB'):
 
                 elastix = Elastix('Elastix')
                 elastix >> asterisk
+
+        wazo >> asterisk
+        kazoo >> freeswitch
+        kazoo >> kamailio
 
         with Cluster('Control Panels'):
             opensips_cp = OpenSIPSControlPanel('OpenSIPS\nControl Panel')

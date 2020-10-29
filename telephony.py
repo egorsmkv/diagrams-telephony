@@ -184,3 +184,19 @@ class SippyGoB2BUA(_Telephony):
 
 class RTPCluster(_Telephony):
     _icon = 'rtp_cluster.png'
+
+
+class GnuBayonne(_Telephony):
+    _icon = 'gnu_bayonne.jpg'
+
+
+class DaloRADIUS(_Telephony):
+    _icon = 'daloradius.png'
+
+
+class Kazoo(_Telephony):
+    _icon = 'kazoo.png'
+
+
+class WazoPlatform(_Telephony):
+    _icon = 'wazo_platform.png'
