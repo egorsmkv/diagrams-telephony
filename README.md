@@ -22,6 +22,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [MiRTA PBX](http://www.mirtapbx.com)
 - [Thirdlane PBX](https://www.thirdlane.com)
 - [3CX](https://www.3cx.com/)
+- [CustomPBX](https://github.com/CustomPBX/cpbx-docker)
 
 ## GUI
 
