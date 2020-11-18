@@ -16,6 +16,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [ASTPP](https://github.com/iNextrix/ASTPP)
 - [PyFreeBilling](https://github.com/mwolff44/pyfreebilling)
 - [ngbilling](https://github.com/ngecom/ngbilling)
+- [abills](http://abills.net.ua/)
 
 ## Other PBX systems
 
