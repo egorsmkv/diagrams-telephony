@@ -18,7 +18,6 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [ngbilling](https://github.com/ngecom/ngbilling)
 - [abills](http://abills.net.ua/)
 - [Ubilling](http://ubilling.net.ua/)
-- [NoDeny](http://nodeny.com.ua/)
 
 ## Other PBX systems
 
