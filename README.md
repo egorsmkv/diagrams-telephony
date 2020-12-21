@@ -28,6 +28,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [CustomPBX](https://github.com/CustomPBX/cpbx-docker)
 - [PortSIP PBX](https://www.portsip.com/portsip-pbx/)
 - MVTS PRO ( MERA )
+- Avaya
 
 ## GUI
 
