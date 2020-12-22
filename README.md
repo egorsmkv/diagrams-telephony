@@ -27,7 +27,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [3CX](https://www.3cx.com/)
 - [CustomPBX](https://github.com/CustomPBX/cpbx-docker)
 - [PortSIP PBX](https://www.portsip.com/portsip-pbx/)
-- MVTS PRO ( Multiprotocol VoIP Transit Softswitch Professional )
+- MVTS PRO ( Multiprotocol VoIP Transit Softswitch Professional ) MERA
 - Avaya
 - [RTU - Retail and Transit Unit](https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%B7%D0%B5%D0%BB)
 
