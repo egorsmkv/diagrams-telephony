@@ -33,6 +33,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [HIVE](https://iptelefon.su/promo/hive)
 - [ZeonPBX](https://zeonpbx.ru/)
 - [miniSIPServer](https://www.myvoipapp.com/)
+- [VodiaPBX](https://vodia.com/)
 
 ## GUI
 
