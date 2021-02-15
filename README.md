@@ -15,6 +15,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [cgrates](https://github.com/cgrates/cgrates)
 - [ASTPP](https://github.com/iNextrix/ASTPP)
 - [PyFreeBilling](https://github.com/mwolff44/pyfreebilling)
+- [FSbilling](https://www.fsbilling.com/)
 - [ngbilling](https://github.com/ngecom/ngbilling)
 - [abills](http://abills.net.ua/)
 - [Ubilling](http://ubilling.net.ua/)
