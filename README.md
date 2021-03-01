@@ -38,6 +38,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [VodiaPBX](https://vodia.com/)
 - [CommuniGate](https://communigate.com/)
 - [Oracle Communications Converged Application Server](https://www.oracle.com/industries/communications/converged-application-server/)
+- [HERO Hosted PBX](http://www.dialexia.com/hosted-pbx/)
 
 ## GUI
 
