@@ -40,6 +40,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [Oracle Communications Converged Application Server](https://www.oracle.com/industries/communications/converged-application-server/)
 - [HERO Hosted PBX](http://www.dialexia.com/hosted-pbx/)
 - [Ozeki](https://ozekiphone.com/p_4706-home.html)
+- [Repro](https://www.resiprocate.org/About_Repro)
 
 ## GUI
 
