@@ -41,6 +41,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [HERO Hosted PBX](http://www.dialexia.com/hosted-pbx/)
 - [Ozeki](https://ozekiphone.com/p_4706-home.html)
 - [Repro](https://www.resiprocate.org/About_Repro)
+- [Cirpack](http://www.cirpack.com/)
 
 ## GUI
 
