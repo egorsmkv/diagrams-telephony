@@ -29,7 +29,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [HEPIC](https://hepic.tel)
 - [VoIPmonitor](https://www.voipmonitor.org/)
 
-## Other PBX systems
+## Other PBX systems / SIP servers
 
 - [MiRTA PBX](http://www.mirtapbx.com)
 - [Thirdlane PBX](https://www.thirdlane.com)
