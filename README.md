@@ -55,3 +55,5 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 ## GUI
 
 - [Bluebox](https://github.com/2600hz/bluebox) (switch agnostic UI by 2600Hz, no updates)
+
+Other VoIP-related projects can be found here: https://github.com/rtckit/awesome-rtc
