@@ -22,6 +22,12 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [BGBilling](https://bgbilling.ru)
 - [OV500 Open Source Billing](https://ov500.openvoips.org/dynamic-routing-paypal-did-lcr-support/)
 
+## VoIP monitoring
+
+- [SIP3](https://sip3.io/)
+- [HOMER](https://sipcapture.org/)
+- [HEPIC](https://hepic.tel))
+
 ## Other PBX systems
 
 - [MiRTA PBX](http://www.mirtapbx.com)
