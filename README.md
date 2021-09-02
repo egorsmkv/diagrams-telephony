@@ -51,6 +51,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [Cirpack](http://www.cirpack.com/)
 - [Routr](https://routr.io/)
 - [Flexisip](https://github.com/BelledonneCommunications/flexisip)
+- [NkSIP](https://github.com/NetComposer/nksip)
 
 ## GUI
 
