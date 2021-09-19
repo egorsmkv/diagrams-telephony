@@ -54,6 +54,13 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [NkSIP](https://github.com/NetComposer/nksip)
 - [drachtio-server](https://github.com/drachtio/drachtio-server)
 
+### SBC
+
+- [sbcOS](https://github.com/voiceboys/sbcOS)
+- [libresbc](https://github.com/hnimminh/libresbc)
+- [RestComm SBC](https://github.com/RestComm/sbc)
+- [FreeSBC/ProSBC](https://freesbc.telcobridges.com/)
+
 ## GUI
 
 - [Bluebox](https://github.com/2600hz/bluebox) (switch agnostic UI by 2600Hz, no updates)
