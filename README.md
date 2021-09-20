@@ -61,6 +61,11 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [RestComm SBC](https://github.com/RestComm/sbc)
 - [FreeSBC/ProSBC](https://freesbc.telcobridges.com/)
 
+### Other
+
+- [FreeDiameter](https://github.com/freeDiameter/freeDiameter)
+- [FreeRADIUS](https://github.com/FreeRADIUS/freeradius-server)
+
 ## GUI
 
 - [Bluebox](https://github.com/2600hz/bluebox) (switch agnostic UI by 2600Hz, no updates)
