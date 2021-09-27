@@ -22,6 +22,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [BGBilling](https://bgbilling.ru)
 - [HyperBilling](https://www.hyperbilling.com/)
 - [OV500 Open Source Billing](https://ov500.openvoips.org/dynamic-routing-paypal-did-lcr-support/)
+- [The list of billing software for FreeSWITCH](https://freeswitch.org/confluence/display/FREESWITCH/Freeswitch+GUI)
 
 ## VoIP monitoring
 
