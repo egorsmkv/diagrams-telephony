@@ -63,6 +63,12 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [RestComm SBC](https://github.com/RestComm/sbc)
 - [FreeSBC/ProSBC](https://freesbc.telcobridges.com/)
 
+### SoftPhones
+
+- [MicroSIP](https://www.microsip.org/source/)
+- [Zoiper](https://www.zoiper.com/)
+- [Tinyphone](https://github.com/voiceip/tinyphone)
+
 ### Other
 
 - [FreeDiameter](https://github.com/freeDiameter/freeDiameter)
