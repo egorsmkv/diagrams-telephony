@@ -56,6 +56,11 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [NkSIP](https://github.com/NetComposer/nksip)
 - [drachtio-server](https://github.com/drachtio/drachtio-server)
 
+#### Related to SIP
+
+- [GNU oSIP library](https://www.gnu.org/software/osip/osip.html)
+- [Antisip](https://www.antisip.com/)
+
 ### SBC
 
 - [sbcOS](https://github.com/voiceboys/sbcOS)
