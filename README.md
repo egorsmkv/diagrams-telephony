@@ -55,6 +55,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [Flexisip](https://github.com/BelledonneCommunications/flexisip)
 - [NkSIP](https://github.com/NetComposer/nksip)
 - [drachtio-server](https://github.com/drachtio/drachtio-server)
+- [Ostel](https://dev.guardianproject.info/projects/ostel/wiki/Server_Documentation/29.html)
 
 #### Related to SIP
 
