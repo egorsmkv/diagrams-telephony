@@ -57,6 +57,7 @@ Just copy `telephony.py` and `resources` folder to your project and you can use 
 - [drachtio-server](https://github.com/drachtio/drachtio-server)
 - [Ostel](https://dev.guardianproject.info/projects/ostel/wiki/Server_Documentation/29.html)
 - [XiVO](https://www.xivo.solutions/)
+- [CSRP - Canonical SIP Routing Platform](https://csrpswitch.com/index.html)
 
 #### Related to SIP
 
